@@ -1,0 +1,17 @@
+# thakar.net
+
+Website of the **Thakar Group**, the family institutional group of the Thakar family.
+
+## Structure
+- `index.html` – the full site (single page, no build step)
+- `CNAME` – custom domain for GitHub Pages (`thakar.net`)
+
+## Deploy on GitHub Pages
+1. Push this repo to GitHub.
+2. Settings → Pages → Source: `main` branch, root folder.
+3. At your domain registrar, point `thakar.net` to GitHub Pages
+   (A records 185.199.108.153, .109.153, .110.153, .111.153, and a `www` CNAME to `<user>.github.io`).
+
+## To fill in
+- Roles for Vivek Thakar and Meenakshi Thakar (currently "Family Council")
+- Contact email (currently `contact@thakar.net`)
