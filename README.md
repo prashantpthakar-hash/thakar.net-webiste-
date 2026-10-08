@@ -3,7 +3,15 @@
 Website of the **Thakar Group**, the family institutional group of the Thakar family.
 
 ## Structure
-- `index.html` – the full site (single page, no build step)
+Static site, no build step. Every page shares `styles.css`; the header and footer are repeated in each page, so edit them in all of them.
+- `index.html` – Home
+- `about.html` – About, the family, governance, principles
+- `companies.html` – every group company, with a detail section each
+- `ai.html` – the shared AI layer across the group
+- `contact.html` – contact desks
+- `404.html` – not-found page
+- `robots.txt`, `sitemap.xml` – for search engines
+- `vercel.json` – serves `/about` etc. without `.html`
 - `CNAME` – custom domain for GitHub Pages (`thakar.net`)
 
 ## Deploy on Vercel
