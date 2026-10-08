@@ -12,7 +12,7 @@ Website of the **Thakar Group**, the family institutional group of the Thakar fa
 3. At your domain registrar set:
    - `A` record `@` → `76.76.21.21`
    - `CNAME` record `www` → `cname.vercel-dns.com`
-   (`vercel.json` redirects `www` to the bare domain.)
+   (The www ↔ bare-domain redirect is set in Vercel → Settings → Domains, not in `vercel.json`.)
 
 ## Deploy on GitHub Pages (alternative)
 1. Push this repo to GitHub.
