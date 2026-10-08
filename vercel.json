@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.thakar.net" }], "destination": "https://thakar.net/:path*", "permanent": true }
+  ]
+}

@@ -6,7 +6,15 @@ Website of the **Thakar Group**, the family institutional group of the Thakar fa
 - `index.html` – the full site (single page, no build step)
 - `CNAME` – custom domain for GitHub Pages (`thakar.net`)
 
-## Deploy on GitHub Pages
+## Deploy on Vercel
+1. vercel.com → Add New → Project → import `thakar.net-webiste-` (framework: Other, no build command).
+2. Project → Settings → Domains → add `thakar.net` and `www.thakar.net`.
+3. At your domain registrar set:
+   - `A` record `@` → `76.76.21.21`
+   - `CNAME` record `www` → `cname.vercel-dns.com`
+   (`vercel.json` redirects `www` to the bare domain.)
+
+## Deploy on GitHub Pages (alternative)
 1. Push this repo to GitHub.
 2. Settings → Pages → Source: `main` branch, root folder.
 3. At your domain registrar, point `thakar.net` to GitHub Pages
